@@ -27,9 +27,10 @@ ie. 2669.5 rounded down to 2669 instead of to 2670
 | Claire    | Wong     | 120000        | 10%          | 01 March – 31 March |
 
 Output
-| name | pay-period | gross-income | income-tax | net-Income | super-amount|
-| ------- | ---- | ------- | -----| ------ |------|
-| Andrew Smith | 01 March – 31 March | 5004 | 922 | 4082 | 450|
-| Claire Wong | 01 March – 31 March | 10000 | 2669 | 7331 | 1000|
+
+| name         | pay-period          | gross-income | income-tax | net-Income | super-amount |
+| ------------ | ------------------- | ------------ | ---------- | ---------- | ------------ |
+| Andrew Smith | 01 March – 31 March | 5004         | 922        | 4082       | 450          |
+| Claire Wong  | 01 March – 31 March | 10000        | 2669       | 7331       | 1000         |
 
 uses nextjs and context to get information from localStorage to display a calculated paycheck.
